@@ -1,20 +1,4 @@
-dart pub upgrade
-...
-dart pub outdated
-Package Name  Current  Upgradable  Resolvable  Latest
 
-direct dependencies:
-path          1.6.2    1.6.2       1.6.2       1.7.0
-
-dev_dependencies: all up-to-date
-
-transitive dependencies:
-meta          1.1.6    1.1.6       1.1.6       1.1.8
-
-transitive dev_dependencies: all up-to-date
-
-Dependencies are all on the latest resolvable versions.
-Newer versions, while available, are not mutually compatible.
 # KeyupApp
 <h1>keyupApp information</h1>
 <!DOCTYPE html>
