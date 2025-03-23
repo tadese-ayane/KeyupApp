@@ -1,4 +1,5 @@
-
+pip install pystache requests pygithub3 # first time only
+./generate.py
 <!DOCTYPE html>
 <html>
 <body>
