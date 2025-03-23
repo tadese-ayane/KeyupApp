@@ -1,3 +1,4 @@
+{
 pip install pystache requests pygithub3 # first time only
 ./generate.py
 <!DOCTYPE html>
@@ -36,7 +37,7 @@ https://github.com/1Password/for-open-source/edit/main/README.md
 https://github.com/freeCodeCamp/freeCodeCamp
 
 https://github.com/readthedocs/sphinx_rtd_theme
-
+}
 
 Certifications
 The Learning Platform
