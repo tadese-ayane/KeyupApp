@@ -1,5 +1,4 @@
-{
-pip install pystache requests pygithub3 # first time only
+https://www.jsdelivr.com/package/npm/markdown-it
 ./generate.py
 <!DOCTYPE html>
 <html>
