@@ -1,4 +1,4 @@
-https://www.jsdelivr.com/package/npm/markdown-it
+https://www.jsdelivr.com/
 <!DOCTYPE html>
 <html>
 <body>
