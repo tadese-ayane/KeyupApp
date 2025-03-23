@@ -1,13 +1,11 @@
 
-# KeyupApp
-<h1>keyupApp information</h1>
 <!DOCTYPE html>
 <html>
 <body>
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<input type="keyup">
+<input type="text">
 </body>
 </html>
 
