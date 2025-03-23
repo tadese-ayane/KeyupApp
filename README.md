@@ -1,5 +1,4 @@
 https://www.jsdelivr.com/package/npm/markdown-it
-./generate.py
 <!DOCTYPE html>
 <html>
 <body>
