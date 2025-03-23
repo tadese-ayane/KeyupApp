@@ -1,4 +1,5 @@
-https://www.jsdelivr.com/
+listing
+https://cdn.jsdelivr.net/npm/jquery/
 <!DOCTYPE html>
 <html>
 <body>
