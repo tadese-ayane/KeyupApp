@@ -1,4 +1,3 @@
-https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webworker
 
  * Copyright (C) 2012 The Android Open Source Project
  *
