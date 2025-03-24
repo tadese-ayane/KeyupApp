@@ -1,4 +1,4 @@
-Skip detection and always insert definitions for process, global,
+<!--Skip detection and always insert definitions for process, global,!-->
 __filename, and __dirname.
 
   --insert-globals, --ig, --fast    [default: false]
