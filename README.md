@@ -1,3 +1,4 @@
+foo(file, { x: 3, beep: true })
 <!DOCKTYPE html>
 <body>
   <head>
