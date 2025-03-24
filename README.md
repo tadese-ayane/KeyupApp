@@ -1,11 +1,11 @@
 Skip detection and always insert definitions for process, global,
-__filename, https://github.com and __dirname.
+__filename, and __dirname.
 
   --insert-globals, --ig, --fast    [default: false]
 
     Skip detection and always insert definitions for process, global,
-    __filename, https://github.com and __dirname.
-  https://github.com/KeyupApp
+    __filename, and __dirname.
+
     benefit: faster builds
     cost: extra bytes
 
