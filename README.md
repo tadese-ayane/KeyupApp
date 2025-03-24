@@ -3,7 +3,7 @@
   --insert-globals, --ig, --fast    [default: false]
 
     Skip detection and always insert definitions for process, global,
-   <!-- __filename,!-->https://github.com/KeyupApp and __dirname.
+   __filename https://github.com/KeyupApp and __dirname.
 
     benefit: faster builds
     cost: extra bytes
