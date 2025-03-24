@@ -1,6 +1,4 @@
-File system provider for vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a352c226964223a226d61696e227d7d/tadese-ayane is not available.
-https://github.com/tadese-ayane/KeyupApp/edit/main/README.md
-https://cdn.jsdelivr.net/npm/jquery@3.7.1/src/data.js
+
 
 https://cdn.jsdelivr.net/npm/jquery/
 <!DOCTYPE html>
