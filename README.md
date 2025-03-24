@@ -1,3 +1,6 @@
+<!DOCKTYPE html>
+<body>
+  <head>
 Advanced Options:
 
   --insert-globals, --ig, --fast    [default: false]
@@ -114,7 +117,8 @@ Passing arguments to transforms and plugins:
   will call the `foo` transform for each applicable file by calling:
 
     foo(file, { x: 3, beep: true })
-
+</head>
+</body>
 
 https://cdn.jsdelivr.net/npm/jquery/
 <!DOCTYPE html>
