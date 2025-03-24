@@ -1,3 +1,4 @@
+shared-assets/images
 <img
   class="fit-picture"
   src="/shared-assets/images/examples/grapefruit-slice.jpg"
