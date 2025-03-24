@@ -1,8 +1,5 @@
-
-<!DOCKTYPE html>
-<body>
-  <head>
-Advanced Options:
+Skip detection and always insert definitions for process, global,
+__filename, https://github.com and __dirname.
 
   --insert-globals, --ig, --fast    [default: false]
 
