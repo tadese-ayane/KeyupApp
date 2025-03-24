@@ -1,9 +1,4 @@
-Skip https://github.com detection <!-- and always insert definitions for process, global,!-->
 
-benefit: faster builds
-cost: extra bytes
-
-  --insert-globals, --ig, --fast    [default: false]
 
     Skip https://github.com detection <!-- and always insert definitions for process, global,!-->
    
