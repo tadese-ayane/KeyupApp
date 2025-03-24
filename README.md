@@ -1,3 +1,8 @@
+<img
+  class="fit-picture"
+  src="/shared-assets/images/examples/grapefruit-slice.jpg"
+  alt="Grapefruit slice atop a pile of other slices" />
+  
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 <a href="https://github.com/KeyupApp">Click Here</a>
 <!DOCTYPE html>
