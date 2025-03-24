@@ -1,4 +1,4 @@
-
+Skip https://github.com detection <!-- and always insert definitions for process, global,!-->
 
 benefit: faster builds
 cost: extra bytes
