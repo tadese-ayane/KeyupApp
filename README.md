@@ -1,4 +1,4 @@
-foo(file, { x: 3, beep: true })
+
 <!DOCKTYPE html>
 <body>
   <head>
@@ -8,7 +8,7 @@ Advanced Options:
 
     Skip detection and always insert definitions for process, global,
     __filename, and __dirname.
-
+  https://github.com/KeyupApp
     benefit: faster builds
     cost: extra bytes
 
