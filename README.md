@@ -1,4 +1,4 @@
-<a href="devhub://qrCodeEventGenerator">Click Here</a>
+<a href="https://github.com/KeyupApp">Click Here</a>
 
 
 keyuop
