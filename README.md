@@ -1,10 +1,4 @@
-shared-assets/images/examples/grapefruit-slice.jpg
 
-shared-assets/images
-<img
-  class="fit-picture"
-  src="/shared-assets/images/examples/grapefruit-slice.jpg"
-  alt="Grapefruit slice atop a pile of other slices" />
   
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 <a href="https://github.com/KeyupApp">Click Here</a>
@@ -16,10 +10,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
 <p>The form attribute specifies the form an input element belongs to.</p>
 
-<form action="/action_page.php" id="form1">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="submit" value="Submit">
+<form action="/action_page.php" id="form1">  <label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br><br> <input type="submit" value="Submit">
 </form>
 
 <p>The "Last name" field below is outside the form element, but still part of the form.</p>
