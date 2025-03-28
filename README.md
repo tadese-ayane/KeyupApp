@@ -1,7 +1,4 @@
-https://spec.commonmark.org/dingus/?text=%3CDOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Cinput%20type%3D%E2%80%9Cfile%E2%80%9D%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A&smart=1
-
-
-foo foo -->
+https://spec.commonmark.org/dingus/?text=Multiple%20%20%20%20%20spaces%0A
 
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
 
