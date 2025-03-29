@@ -1,19 +1,16 @@
-import markdownit from 'markdown-it'
-import hljs from 'highlight.js' // https://highlightjs.org
+# The Greeter class
+class Greeter
+  def initialize(name)
+    @name = name.capitalize
+  end
 
-// Actual default values
-const md = markdownit({
-  highlight: function (str, lang) {
-    if (lang && hljs.getLanguage(lang)) {
-      try {
-        return hljs.highlight(str, { language: lang }).value;
-      } catch (__) {}
-    }
+  def salute
+    puts "Hello #{@name}!"
+  end
+end
 
-    return ''; // use external default escaping
-  }
-});
-
+g = Greeter.new("world")
+g.salute
 
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
 
