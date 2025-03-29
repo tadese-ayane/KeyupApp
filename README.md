@@ -1,9 +1,4 @@
-<DOCKTYPE html>
-<html>
-<body>
-<h1>bifa isa<h1>
-</body>
-</html>
+
 
 [keyupApp](https://spec.commonmark.org/dingus/?text=%5BKeyupApp%5D(%2Furi%20%22title%22))
 
