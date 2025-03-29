@@ -1,4 +1,18 @@
-benchmark/samples//*
+import markdownit from 'markdown-it'
+import hljs from 'highlight.js' // https://highlightjs.org
+
+// Actual default values
+const md = markdownit({
+  highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return hljs.highlight(str, { language: lang }).value;
+      } catch (__) {}
+    }
+
+    return ''; // use external default escaping
+  }
+});
 
 
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
