@@ -1,7 +1,7 @@
 <img
   class="fit-picture"
   src="/shared-assets/images/examples/grapefruit-slice.jpg"
-  alt="Grapefruit slice atop a pile of other slices" />
+  alt="Grapefruit slice atop a pile of other slices" /img>
 
 
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
