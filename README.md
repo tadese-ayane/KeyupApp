@@ -1,3 +1,7 @@
+<img
+  class="fit-picture"
+  src="/shared-assets/images/examples/grapefruit-slice.jpg"
+  alt="Grapefruit slice atop a pile of other slices" />
 <!DOCKTYE html>
 <html>
   <body>
