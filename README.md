@@ -18,7 +18,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
 keyuop
 
-https://cdn.jsdelivr.net/npm/jquery/
+
 <!DOCTYPE html>
 <html>
 <body>
