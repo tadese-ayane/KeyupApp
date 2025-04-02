@@ -1,3 +1,12 @@
+<!DOCKTYE html>
+<html>
+  <body>
+    <input type="file">
+    <input type="submit".>
+  </body>
+</html>
+
+
 <img
   class="fit-picture"
   src="/shared-assets/images/examples/grapefruit-slice.jpg"
