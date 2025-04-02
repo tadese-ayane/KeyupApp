@@ -12,22 +12,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 <a href="https://github.com/KeyupApp">Click Here</a>
 
 
-</body>
-</html>
 
-
-keyuop
-
-
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<input type="text">
-</body>
-</html>
 
 
 
