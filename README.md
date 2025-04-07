@@ -1,14 +1,7 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "CommonMark.dtd">
-<document xmlns="http://commonmark.org/xml/1.0">
-  <DOCKTYPE html>
-<html>
-<body>
-<h1>bifa isa<h1>
-</body>
-</html>
-</document>
+srcset="https://nodejs.org/static/logos/nodejsStackedLight.svg">
+      <img src="https://nodejs.org/static/logos/nodejsStackedDark.svg" width="200px">
+    </picture>
+</p>
   
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
 
