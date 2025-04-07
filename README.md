@@ -1,8 +1,4 @@
-<img
-  class="fit-picture"
-mark  src="/shared-assets/images/examples/.jpg"
-  alt="Grapefruit slice atop a pile of other slices" />
-
+https://spec.commonmark.org/dingus/?text=A%20paragraph%0Awith%20two%20lines.%0A%0A%20%20%20%20indented%20code%0A%0A%3E%20A%20block%20quote.%0A
 
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
 
