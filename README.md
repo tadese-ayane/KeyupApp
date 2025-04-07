@@ -1,5 +1,5 @@
-srcset="https://nodejs.org/static/logos/nodejsStackedLight.svg">
-      <img src="https://nodejs.org/static/logos/nodejsStackedDark.svg" width="200px">
+
+      <img src="https://nodejs.org/static/logos/nodejsStackedDark.svg" width="500px">
     </picture>
 </p>
   
