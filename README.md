@@ -1,7 +1,7 @@
 
 
 <img
-src="https://github.com/KeyupApp/![image](https://github.com/user-attachments/assets/78b61d01-bd94-42e0-b833-5c6d288bfa09)
+src="https://github.com/KeyupApp/![image](https://github.com/user-attachments/assets/78b61d01-bd94-42e0-b833-5c6d288bfa09)KeyupApp
 StackedDark.svg" width="200px">
     </picture>
 </p>
