@@ -1,6 +1,6 @@
 <img
   class="fit-picture"
-  src="/shared-assets/images/examples/grapefruit-slice.jpg"
+mark  src="/shared-assets/images/examples/.jpg"
   alt="Grapefruit slice atop a pile of other slices" />
 
 
