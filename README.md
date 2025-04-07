@@ -9,8 +9,6 @@
 &lt;/body&gt;
 &lt;/html&gt;</html_block>
 </document>
-
-<DOCKTYPE html>
 <html>
 <body>
 <h1>bifa isa<h1>
