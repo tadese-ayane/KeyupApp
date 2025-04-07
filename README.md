@@ -3,8 +3,8 @@
 <!DOCTYPE document SYSTEM "CommonMark.dtd">
 <document xmlns="http://commonmark.org/xml/1.0">
   <html_block>&lt;<DOCKTYPE html>&gt;
-&lt;<html>&gt;keyup
-&lt;<body>&gt;pay
+&lt;html&gt;keyup
+&lt;body&gt;pay
 &lt;<h1>&gt;bifa inni isa&lt;</h1>h1&gt;
 &lt;</body>&gt;
 &lt;</html>&gt;</html_block>
