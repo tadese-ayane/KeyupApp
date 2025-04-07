@@ -5,9 +5,9 @@
   <html_block>&lt;<DOCKTYPE html>&gt;
 &lt;html&gt;keyup
 &lt;body&gt;pay
-&lt;<h1>&gt;bifa inni isa&lt;</h1>h1&gt;
+&lt;h1 &gt;bifa inni isa&lt;h1 h1&gt;
 &lt;</body>&gt;
-&lt;</html>&gt;</html_block>
+&lt;html &gt;</html_block>
 </document>
 
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
