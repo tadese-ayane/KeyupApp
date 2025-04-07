@@ -1,7 +1,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "CommonMark.dtd">
-
 <document xmlns="http://commonmark.org/xml/1.0">
   <html_block>&lt;<DOCKTYPE html>&gt;
 &lt;<html>&gt;keyup
