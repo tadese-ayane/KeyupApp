@@ -1,1 +1,94 @@
+    <softbreak />
+    <text>liquid (4.0.3)</text>
+    <softbreak />
+    <text>listen (3.2.1)</text>
+    <softbreak />
+    <text>rb-fsevent (~&gt; 0.10, &gt;= 0.10.3)</text>
+    <softbreak />
+    <text>rb-inotify (~&gt; 0.9, &gt;= 0.9.10)</text>
+    <softbreak />
+    <text>mercenary (0.4.0)</text>
+    <softbreak />
+    <text>mini</text>
+    <text>_</text>
+    <text>portile2 (2.5.1)</text>
+    <softbreak />
+    <text>nokogiri (1.11.4)</text>
+    <softbreak />
+    <text>mini</text>
+    <text>_</text>
+    <text>portile2 (~&gt; 2.5.0)</text>
+    <softbreak />
+    <text>racc (~&gt; 1.4)</text>
+    <softbreak />
+    <text>nokogumbo (2.0.2)</text>
+    <softbreak />
+    <text>nokogiri (~&gt; 1.8, &gt;= 1.8.4)</text>
+    <softbreak />
+    <text>parallel (1.19.2)</text>
+    <softbreak />
+    <text>pathutil (0.16.2)</text>
+    <softbreak />
+    <text>forwardable-extended (~&gt; 2.6)</text>
+    <softbreak />
+    <text>public</text>
+    <text>_</text>
+    <text>suffix (4.0.6)</text>
+    <softbreak />
+    <text>racc (1.5.2)</text>
+    <softbreak />
+    <text>rainbow (3.0.0)</text>
+    <softbreak />
+    <text>rb-fsevent (0.10.4)</text>
+    <softbreak />
+    <text>rb-inotify (0.10.1)</text>
+    <softbreak />
+    <text>ffi (~&gt; 1.0)</text>
+    <softbreak />
+    <text>rexml (3.2.5)</text>
+    <softbreak />
+    <text>rouge (3.23.0)</text>
+    <softbreak />
+    <text>safe</text>
+    <text>_</text>
+    <text>yaml (1.0.5)</text>
+    <softbreak />
+    <text>sassc (2.4.0)</text>
+    <softbreak />
+    <text>ffi (~&gt; 1.9)</text>
+    <softbreak />
+    <text>terminal-table (1.8.0)</text>
+    <softbreak />
+    <text>unicode-display</text>
+    <text>_</text>
+    <text>width (~&gt; 1.1, &gt;= 1.1.1)</text>
+    <softbreak />
+    <text>typhoeus (1.4.0)</text>
+    <softbreak />
+    <text>ethon (&gt;= 0.9.0)</text>
+    <softbreak />
+    <text>unicode-display</text>
+    <text>_</text>
+    <text>width (1.7.0)</text>
+    <softbreak />
+    <text>yell (2.2.2)</text>
+  </paragraph>
+  <paragraph>
+    <text>PLATFORMS</text>
+    <softbreak />
+    <text>ruby</text>
+  </paragraph>
+  <paragraph>
+    <text>DEPENDENCIES</text>
+    <softbreak />
+    <text>html-proofer</text>
+    <softbreak />
+    <text>jekyll</text>
+  </paragraph>
+  <paragraph>
+    <text>BUNDLED WITH</text>
+    <softbreak />
+    <text>1.17.3</text>
+  </paragraph>
+</document>
 
