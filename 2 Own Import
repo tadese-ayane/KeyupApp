@@ -1,1 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "CommonMark.dtd">
+
+<document xmlns="http://commonmark.org/xml/1.0">
+  <paragraph>
+    <text>import com.google.common.collect.Maps;</text>
+    <softbreak />
+    <text>import java.util.Collection;</text>
+    <softbreak />
+    <text>import java.util.Map;</text>
+    <softbreak />
+    <text>import java.util.Map.Entry;</text>
+    <softbreak />
+    <text>import java.util.Set;</text>
+  </paragraph>
+  <paragraph>
+    <text>public class of</text>
+    <html_inline>&lt;V&gt;</html_inline>
+    <softbreak />
+    <text>implements Map</text>
+    <text>&lt;</text>
+    <text>String, V&gt;</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>private final Map</text>
+    <text>&lt;</text>
+    <text>String, V&gt; a = Maps.newLinkedHashMap();</text>
+  </paragraph>
+  <paragraph>
+    <text>public int size()</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.size();</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public boolean isEmpty()</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.isEmpty();</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public boolean containsKey(Object ☃)</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.containsKey(☃.toString().toLowerCase());</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public boolean containsValue(Object ☃)</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.containsKey(☃);</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public V get(Object ☃)</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return (V)this.a.get(☃.toString().toLowerCase());</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public V a(String ☃, V ☃)</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return (V)this.a.put(☃.toLowerCase(), ☃);</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public V remove(Object ☃)</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return (V)this.a.remove(☃.toString().toLowerCase());</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public void putAll(Map</text>
+    <text>&lt;</text>
+    <text>? extends String, ? extends V&gt; ☃)</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>for (Map.Entry</text>
+    <text>&lt;</text>
+    <text>? extends String, ? extends V&gt; ☃ : ☃.entrySet()) {</text>
+    <softbreak />
+    <text>a((String)☃.getKey(), ☃.getValue());</text>
+    <softbreak />
+    <text>}</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public void clear()</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>this.a.clear();</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public Set</text>
+    <html_inline>&lt;String&gt;</html_inline>
+    <text> keySet()</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.keySet();</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public Collection</text>
+    <html_inline>&lt;V&gt;</html_inline>
+    <text> values()</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.values();</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+  <paragraph>
+    <text>public Set</text>
+    <text>&lt;</text>
+    <text>Map.Entry</text>
+    <text>&lt;</text>
+    <text>String, V&gt;&gt; entrySet()</text>
+    <softbreak />
+    <text>{</text>
+    <softbreak />
+    <text>return this.a.entrySet();</text>
+    <softbreak />
+    <text>}</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+</document>
 
