@@ -1,6 +1,25 @@
-let array = [1, 2, 3, 4, 5];
-let newArray = array.map(element => element * 2);
-console.log(newArray); // Output: [2, 4, 6, 8, 10]
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "CommonMark.dtd">
+
+<document xmlns="http://commonmark.org/xml/1.0">
+  <paragraph>
+    <text>let array = </text>
+    <text>[</text>
+    <text>1, 2, 3, 4, 5</text>
+    <text>]</text>
+    <text>;</text>
+    <softbreak />
+    <text>let newArray = array.map(element =&gt; element </text>
+    <text>*</text>
+    <text> 2);</text>
+    <softbreak />
+    <text>console.log(newArray); // Output: </text>
+    <text>[</text>
+    <text>2, 4, 6, 8, 10</text>
+    <text>]</text>
+  </paragraph>
+</document>
+
 
 <img
 src="https://github.com/KeyupApp/![image]78b61d01-bd94-42e0-b833-5c6d288bfa09
