@@ -1,32 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "CommonMark.dtd">
+from flask import Flask, request, jsonify
+from password_validator import PasswordValidator
 
-<document 
-[xmlns](http://commonmark.org/xml/1.0">)
-  <paragraph>
-    <text>let array = </text>
-    <text>[</text>
-    <text>1, 2, 3, 4, 5</text>
-    <text>]</text>
-    <text>;</text>
-    <softbreak />
-    <text>let newArray = array.map(element =&gt; element </text>
-    <text>*</text>
-    <text> 2);</text>
-    <softbreak />
-    <text>console.log(newArray); // Output: </text>
-    <text>[</text>
-    <text>2, 4, 6, 8, 10</text>
-    <text>]</text>)
-  </paragraph>
-</document>
+app = Flask(__name__)
 
+# Create a schema for password validation
+schema = PasswordValidator()
+schema \
+    .min(8) \
+    .max(100) \
+    .has().uppercase() \
+    .has().lowercase() \
+    .has().digits() \
+    .has().no().spaces()
 
-<img
-src="https://github.com/KeyupApp/![image]78b61d01-bd94-42e0-b833-5c6d288bfa09
-StackedDark.svg" width="200px">
-    </picture>
-</p>
+@app.route('/signup', methods=['POST'])
+def signup():
+    data = request.get_json()
+    username = data.get('username')
+    password = data.get('password')
+    
+    # Validate password strength
+    if not schema.validate(password):
+        return jsonify({"error": "Password does not meet strength requirements"}), 400
+    
+    # Here you would add code to save the user to your database
+    # For the sake of this example, we'll just return a success message
+
+    return jsonify({"message": "User signed up successfully!"}), 201
+
+if __name__ == '__main__':
+    app.run(debug=True)
   
 [xiyyeffana100%](https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1)
 
