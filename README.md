@@ -1,4 +1,6 @@
-
+let array = [1, 2, 3, 4, 5];
+let newArray = array.map(element => element * 2);
+console.log(newArray); // Output: [2, 4, 6, 8, 10]
 
 <img
 src="https://github.com/KeyupApp/![image]78b61d01-bd94-42e0-b833-5c6d288bfa09
