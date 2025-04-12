@@ -1,19 +1,12 @@
-function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
-
-export default function Gallery() {
-  return (
-    <section>
-      <h1>keyupApp</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
+{
+  "packages": ["packages/react", "packages/react-dom", "packages/scheduler"],
+  "buildCommand": "download-build-in-codesandbox-ci",
+  "node": "18",
+  "publishDirectory": {
+    "react": "build/oss-experimental/react",
+    "react-dom": "build/oss-experimental/react-dom",
+    "scheduler": "build/oss-experimental/scheduler"
+  },
+  "sandboxes": ["new"],
+  "silent": true
 }
