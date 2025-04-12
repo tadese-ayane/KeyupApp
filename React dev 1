@@ -1,1 +1,1403 @@
 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "CommonMark.dtd">
+
+<document xmlns="http://commonmark.org/xml/1.0">
+  <paragraph>
+    <text>{</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>private</text>
+    <text>&quot;</text>
+    <text>: true,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>workspaces</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>[</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>packages/</text>
+    <text>*</text>
+    <text>&quot;</text>
+    <softbreak />
+    <text>]</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>devDependencies</text>
+    <text>&quot;</text>
+    <text>: {</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/cli</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/code-frame</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/core</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.11.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/helper-define-map</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.18.6</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/helper-module-imports</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/parser</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.11.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-external-helpers</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-proposal-class-properties</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-proposal-object-rest-spread</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.11.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-syntax-dynamic-import</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.8.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-syntax-import-meta</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-syntax-jsx</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.23.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-syntax-typescript</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.14.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-arrow-functions</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-block-scoped-functions</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-block-scoping</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.11.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-class-properties</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.25.9</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-classes</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-computed-properties</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-destructuring</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-for-of</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-literals</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-modules-commonjs</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-object-super</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-parameters</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-react-jsx</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.23.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-react-jsx-development</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.22.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-react-jsx-source</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-shorthand-properties</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-spread</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.11.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/plugin-transform-template-literals</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/preset-env</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.26.9</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/preset-flow</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.10.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/preset-react</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.23.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/preset-typescript</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.26.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@babel/traverse</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.11.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@rollup/plugin-babel</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.0.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@rollup/plugin-commonjs</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^24.0.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@rollup/plugin-node-resolve</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^15.0.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@rollup/plugin-replace</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^5.0.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@rollup/plugin-typescript</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^12.1.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@types/invariant</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.2.35</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@typescript-eslint/eslint-plugin</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.21.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>@typescript-eslint/parser</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.21.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>abortcontroller-polyfill</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.7.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>art</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>0.10.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>babel-plugin-syntax-trailing-function-commas</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.5.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>chalk</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>cli-table</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.3.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>coffee-script</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.12.7</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>confusing-browser-globals</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.0.9</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>core-js</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.6.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>create-react-class</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^15.6.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>danger</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^11.2.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>error-stack-parser</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.0.6</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.7.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-config-prettier</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.9.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-babel</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^5.3.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-es</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^4.1.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-eslint-plugin</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.5.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-ft-flow</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.0.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-jest</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>28.4.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-no-for-of-loops</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-no-function-declare-after-return</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-react</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.7.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>eslint-plugin-react-internal</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>link:./scripts/eslint-rules</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>fbjs-scripts</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>filesize</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.0.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>flow-bin</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.245.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>flow-remove-types</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.245.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>glob</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.1.6</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>glob-stream</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.1.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>google-closure-compiler</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^20230206.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>gzip-size</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^5.1.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>hermes-eslint</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.25.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>hermes-parser</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.25.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jest</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^29.4.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jest-cli</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^29.4.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jest-diff</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^29.4.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jest-environment-jsdom</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^29.4.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jest-snapshot-serializer-raw</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.2.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>minimatch</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>minimist</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.2.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>mkdirp</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.5.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>ncp</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prettier</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.3.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prettier-2</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>npm:prettier@^2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prettier-plugin-hermes-parser</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.23.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>pretty-format</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^29.4.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prop-types</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^15.6.2</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>random-seed</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.3.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>react-lifecycles-compat</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>rimraf</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>rollup</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.29.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>rollup-plugin-dts</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^6.1.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>rollup-plugin-prettier</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^4.1.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>rollup-plugin-strip-banner</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>semver</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^7.1.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>shelljs</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.8.5</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>signedsource</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>targz</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^1.0.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>through2</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.0.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>tmp</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^0.1.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>to-fast-properties</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^2.0.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>tsup</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^8.4.0</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>typescript</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^5.4.3</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>undici</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^5.28.4</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>web-streams-polyfill</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^3.1.1</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>yargs</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>^15.3.1</text>
+    <text>&quot;</text>
+    <softbreak />
+    <text>},</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jest</text>
+    <text>&quot;</text>
+    <text>: {</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>testRegex</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>/scripts/jest/dont-run-jest-directly</text>
+    <text>\</text>
+    <text>.js$</text>
+    <text>&quot;</text>
+    <softbreak />
+    <text>},</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>scripts</text>
+    <text>&quot;</text>
+    <text>: {</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prebuild</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>./scripts/react-compiler/link-compiler.sh</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>build</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/rollup/build-all-release-channels.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>build-for-devtools</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>cross-env RELEASE</text>
+    <text>_</text>
+    <text>CHANNEL=experimental yarn build react/index,react/jsx,react/compiler-runtime,react-dom/index,react-dom/client,react-dom/unstable</text>
+    <text>_</text>
+    <text>testing,react-dom/test-utils,react-is,react-debug-tools,scheduler,react-test-renderer,react-refresh,react-art --type=NODE</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>build-for-devtools-dev</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>yarn build-for-devtools --type=NODE</text>
+    <text>_</text>
+    <text>DEV</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>build-for-devtools-prod</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>yarn build-for-devtools --type=NODE</text>
+    <text>_</text>
+    <text>PROD</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>build-for-flight-dev</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>cross-env RELEASE</text>
+    <text>_</text>
+    <text>CHANNEL=experimental node ./scripts/rollup/build.js react/index,react/jsx,react.react-server,react-dom/index,react-dom/client,react-dom/server,react-dom.react-server,react-dom-server.node,react-dom-server-legacy.node,scheduler,react-server-dom-webpack/ --type=NODE</text>
+    <text>_</text>
+    <text>DEV,ESM</text>
+    <text>_</text>
+    <text>PROD,NODE</text>
+    <text>_</text>
+    <text>ES2015 </text>
+    <text>&amp;</text>
+    <text>&amp;</text>
+    <text> mv ./build/node</text>
+    <text>_</text>
+    <text>modules ./build/oss-experimental</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>build-for-vt-dev</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>cross-env RELEASE</text>
+    <text>_</text>
+    <text>CHANNEL=experimental node ./scripts/rollup/build.js react/index,react/jsx,react-dom/index,react-dom/client,react-dom/server,react-dom-server.node,react-dom-server-legacy.node,scheduler --type=NODE</text>
+    <text>_</text>
+    <text>DEV </text>
+    <text>&amp;</text>
+    <text>&amp;</text>
+    <text> mv ./build/node</text>
+    <text>_</text>
+    <text>modules ./build/oss-experimental</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>linc</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/tasks/linc.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>lint</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/tasks/eslint.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>lint-build</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/rollup/validate/index.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>extract-errors</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node scripts/error-codes/extract-errors.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>postinstall</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/flow/createFlowConfigs.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>pretest</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>./scripts/react-compiler/build-compiler.sh </text>
+    <text>&amp;</text>
+    <text>&amp;</text>
+    <text> ./scripts/react-compiler/link-compiler.sh</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>test</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/jest/jest-cli.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>test-stable</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/jest/jest-cli.js --release-channel=stable</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>test-www</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/jest/jest-cli.js --release-channel=www-modern</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>test-classic</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/jest/jest-cli.js --release-channel=www-classic</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>test-build-devtools</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/jest/jest-cli.js --build --project devtools --release-channel=experimental</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>test-dom-fixture</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>cd fixtures/dom </text>
+    <text>&amp;</text>
+    <text>&amp;</text>
+    <text> yarn </text>
+    <text>&amp;</text>
+    <text>&amp;</text>
+    <text> yarn test</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>flow</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/tasks/flow.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>flow-ci</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/tasks/flow-ci.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prettier</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/prettier/index.js write-changed</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prettier-all</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/prettier/index.js write</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>prettier-check</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/prettier/index.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>version-check</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/tasks/version-check.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>publish-prereleases</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>echo </text>
+    <text>'</text>
+    <text>This command has been deprecated. Please refer to https://github.com/facebook/react/tree/main/scripts/release#trigger-an-automated-prerelease</text>
+    <text>'</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>download-build</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/release/download-experimental-build.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>download-build-for-head</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/release/download-experimental-build.js --commit=$(git rev-parse HEAD)</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>download-build-in-codesandbox-ci</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>yarn build --type=node react/index react-dom/index react-dom/client react-dom/src/server react-dom/test-utils scheduler/index react/jsx-runtime react/jsx-dev-runtime</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>check-release-dependencies</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/release/check-release-dependencies</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>generate-inline-fizz-runtime</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/rollup/generate-inline-fizz-runtime.js</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>flags</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>node ./scripts/flags/flags.js</text>
+    <text>&quot;</text>
+    <softbreak />
+    <text>},</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>resolutions</text>
+    <text>&quot;</text>
+    <text>: {</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>react-is</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>npm:react-is</text>
+    <text>&quot;</text>
+    <text>,</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>jsdom</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>22.1.0</text>
+    <text>&quot;</text>
+    <softbreak />
+    <text>},</text>
+    <softbreak />
+    <text>&quot;</text>
+    <text>packageManager</text>
+    <text>&quot;</text>
+    <text>: </text>
+    <text>&quot;</text>
+    <text>yarn@1.22.22</text>
+    <text>&quot;</text>
+    <softbreak />
+    <text>}</text>
+  </paragraph>
+</document>
