@@ -1,4 +1,15 @@
-
+# Call the server using curl:
+curl -X POST "http://localhost:8000/v1/chat/completions" \
+	-H "Content-Type: application/json" \
+	--data '{
+		"model": "tclf90/qwen2.5-72b-instruct-gptq-int4",
+		"messages": [
+			{
+				"role": "user",
+				"content": "What is the capital of France?"
+			}
+		]
+	}'
 
 https://codesandbox.io/p/sandbox/pks495
 
