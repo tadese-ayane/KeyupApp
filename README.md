@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/17f2c086-4009-4f10-b69e-3c29a86ad3b5 +2519)
-
+docs/translations/README.et.md
 
 https://codesandbox.io/p/sandbox/pks495
 
