@@ -1,4 +1,4 @@
-
+svn checkout https://github.com/user/repo/trunk/folder
 
 https://github.com/curl/curl-up.wiki.git
 
