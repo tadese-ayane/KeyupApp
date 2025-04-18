@@ -1,4 +1,4 @@
-docs/translations/Amharic
+
 
 https://github.com/curl/curl-up.wiki.git
 
