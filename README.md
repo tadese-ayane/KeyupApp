@@ -1,7 +1,5 @@
 
 
-https://github.com/curl/curl-up.wiki.git
-
 https://codesandbox.io/p/sandbox/pks495
 
 https://codesandbox.io/p/sandbox/f868kc
