@@ -1,4 +1,4 @@
-docs/translations/README.et.md
+https://github.com/curl/curl-up.wiki.git
 
 https://codesandbox.io/p/sandbox/pks495
 
