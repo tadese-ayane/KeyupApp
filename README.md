@@ -1,3 +1,5 @@
+docs/translations/Amharic
+
 https://github.com/curl/curl-up.wiki.git
 
 https://codesandbox.io/p/sandbox/pks495
