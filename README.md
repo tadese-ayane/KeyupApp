@@ -1,13 +1,3 @@
-import { experimental_renderToHTML as renderToHTML } from 'react-markup';
-import EmailTemplate from './my-email-template-component.js'
-
-async function action(email, name) {
-  "use server";
-  // ... in your server, e.g. a Server Action...
-  const htmlString = await renderToHTML(<EmailTemplate name={name} />);
-  // ... send e-mail using some e-mail provider
-  await sendEmail({ to: email, contentType: 'text/html', body: htmlString });
-}
 
 
 https://codesandbox.io/p/sandbox/y78jm3
