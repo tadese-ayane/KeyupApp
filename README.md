@@ -1,9 +1,4 @@
 
-const converted = {
-  ".main-wrapper": { flexDirection: "row", display: "flex", flex: 1 },
-  "#content": { flex: 1 },
-  ul: { padding: "20px 0", flex: 1 },
-  li: { fontFamily: "'Lato'", color: "whitesmoke", lineHeight: "44px" }
 }
 
 https://react.dev/reference/react-dom/createPortal#reference
