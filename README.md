@@ -1,6 +1,7 @@
 <a href="https://github.com/KeyupApp">Click Here</a>
 
-https://spec.commonmark.org/dingus/?text=foo%20%3C!--%20this%20is%20a%0Acomment%20-%20with%20hyphen%20--%3E%0A%0A%3Ch1%3E%20keyup%20information%20media%20center%20and%20marketing%20%3C%2Fh1%3E
+<a
+href="https://spec.commonmark.org/dingus/?text=foo%20%3C!--%20this%20is%20a%0Acomment%20-%20with%20hyphen%20--%3E%0A%0A%3Ch1%3E%20keyup%20information%20media%20center%20and%20marketing%20%3C%2Fh1%3E">commonmark</a>
 
 https://spec.commonmark.org/dingus/?text=%3CDOCKTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Ch1%3Ebifa%20isa%20keessa%20%3Ch1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A%0A&smart=1
 
