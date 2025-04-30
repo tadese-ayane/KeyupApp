@@ -1,5 +1,3 @@
-https://spec.commonmark.org/dingus/?text=***%0A---%0A___
-
 
 https://spec.commonmark.org/
 
