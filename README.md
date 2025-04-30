@@ -1,3 +1,5 @@
+curl --request PUT \
+  --url https://keyup.com/
 
 https://spec.commonmark.org/
 
