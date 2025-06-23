@@ -11,7 +11,7 @@ https://spec.commonmark.org/
 
 # website
 
-This is the web app for [snack.expo.dev](https://snack.expo.dev/) and for [embedded Snacks](https://snack.expo.dev/embedded).
+This is the web app for [snack.expo.dev](https://snack.expo.dev/) and for [embedded Snacks](https://snack.expo.dev/.
 
 ## Getting started
 
