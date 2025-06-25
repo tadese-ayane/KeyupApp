@@ -1,19 +1,4 @@
-#!/bin/bash
 
-# Install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-
-# Load nvm into current session
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-# Install Node.js 22
-nvm install 22
-
-# Verify Node and npm versions
-node -v
-nvm current
-npm -v
 <a
 href="https://spec.commonmark.org/dingus/?text=%3Ca%20href%3D%22%2Fbar%5C%2F)%22%3EkeyupApp%3C%2Fa%3E%0A">commonmarkpoint</a>
 
