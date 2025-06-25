@@ -28,7 +28,7 @@ npm install markdown-it
 
 # website
 
-This is the web app for [snack.expo.dev](https://snack.expo.dev/npm install markdown-it) and for [embedded Snacks](https://snack.expo.dev/embedded).
+This is the web app for [snack.expo.dev](https://snack.expo.dev/embedded) and for [embedded Snacks](https://snack.expo.dev/embedded).
 
 ## Getting started
 
