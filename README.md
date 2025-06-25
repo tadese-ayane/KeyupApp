@@ -7,8 +7,6 @@ https://spec.commonmark.org/
 <a href="https://github.com/KeyupApp">Click Here</a>
 <a href="https://github.com/KeyupApp">Click Here</a>
 
-npm install markdown-it
-
 # website
 
 This is the web app for [snack.expo.dev](https://snack.expo.dev/embedded) and for [embedded Snacks](https://snack.expo.dev/embedded).
