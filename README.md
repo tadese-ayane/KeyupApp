@@ -1,4 +1,21 @@
-
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_req
+prompt = no
+[req_distinguished_name]
+C = US
+ST = Oregon
+L = Portland
+O = Expo
+OU = Org
+CN = expo.test
+[v3_req]
+keyUsage = critical, digitalSignature, keyAgreement
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = expo.test
+DNS.2 = snack.expo.test
 
 <a
 href="https://spec.commonmark.org/dingus/?text=%3Ca%20href%3D%22%2Fbar%5C%2F)%22%3EkeyupApp%3C%2Fa%3E%0A">commonmarkpoint</a>
