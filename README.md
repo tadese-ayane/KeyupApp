@@ -4,7 +4,7 @@ href="https://spec.commonmark.org/dingus/?text=%3Ca%20href%3D%22%2Fbar%5C%2F)%22
 
 https://spec.commonmark.org/
 
-<a href="https://github.com/KeyupApp/embedded">Click Here</a>
+<a href="https://github.com/KeyupApp">Click Here</a>
 <a href="https://github.com/KeyupApp">Click Here</a>
 
 npm install markdown-it
