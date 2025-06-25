@@ -1,5 +1,6 @@
 <div data-snack-id="@tadese-ayane/bantuu" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
 <script async src="https://snack.expo.dev/embed.js"></script>
+
 <a
 href="https://spec.commonmark.org/dingus/?text=%3Ca%20href%3D%22%2Fbar%5C%2F)%22%3EkeyupApp%3C%2Fa%3E%0A">commonmarkpoint</a>
 
